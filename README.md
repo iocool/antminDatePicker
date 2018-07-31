@@ -90,3 +90,6 @@ onConfirm       // 点击组件弹窗确定后的事件,onConfirm(str),其中 st
 pickerValue     // 默认参数,用来初始的时候用,传入数据是 picker 的索引值,默认(0,0),即 默认选中两列 picker 的第一项
 ```
 
+### 示例
+
+![](http://oyqiss57j.bkt.clouddn.com/demo.gif)
