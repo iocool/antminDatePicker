@@ -1,0 +1,22 @@
+.page-demo {
+    background-color: #fff;
+    font-size: 36rpx;
+    padding-top: 30rpx; 
+    min-height: 100vh;
+}
+
+.page-demo view {
+    margin-bottom: 30rpx;
+}
+
+.page-demo .picker-btn {
+    padding: 0 10rpx;
+    background-color: #f64;
+    color: #fff;
+    border-radius: 10rpx;
+    text-align: center;
+    width: 400rpx;
+    height: 80rpx;
+    line-height: 80rpx;
+    margin: 0 auto 30rpx;
+}

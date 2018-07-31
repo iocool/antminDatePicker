@@ -1,0 +1,6 @@
+{
+    "defaultTitle": "日期选择picker demo",
+    "usingComponents": {
+        "picker": "../../components/dateTimePicker/dateTimePicker"
+    }
+}

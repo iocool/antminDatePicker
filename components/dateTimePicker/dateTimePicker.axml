@@ -1,0 +1,20 @@
+<view class="datepicker-picker-container" a:if="{{visible}}">
+		<view class="datepicker-mask {{className[0]}}" hidden="{{!visible}}" onTap="hide"></view>
+		<view class="datepicker-picker {{className[1]}}">
+				<view class="datepicker-picker-header">
+						<text class="datepicker-picker-header-btn" onTap="onCancel">取消</text>
+						<text class="datepicker-picker-header-title" hidden="{{!title}}">{{title}}</text>
+						<text class="datepicker-picker-header-btn" onTap="onConfirm">确定</text>
+				</view>
+				<view class="datepicker-picker-body">
+						<picker-view onChange="onChange" value="{{value}}">
+								<picker-view-column>
+										<view a:for="{{dateTimesArr[0]}}" a:for-item="dayItem" a:for-index="dayIndex" a:key="dayIndex">{{dayItem}}</view>
+								</picker-view-column>
+								<picker-view-column>
+										<view a:for="{{dateTimesArr[1]}}" a:for-item="timeItem" a:for-index="timeIndex" a:key="timeIndex">{{timeItem}}</view>
+								</picker-view-column>
+						</picker-view>
+				</view>
+		</view>
+</view>

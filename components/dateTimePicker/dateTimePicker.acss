@@ -1,0 +1,84 @@
+.datepicker-animation-fade-in{
+    animation: fadeIn ease .3s forwards;
+}
+.datepicker-animation-fade-out{
+    animation: fadeOut ease .3s forwards;
+}
+.datepicker-animation-slide-up{
+    animation: slideUp ease .3s forwards;
+}
+.datepicker-animation-slide-down{
+    animation: slideDown ease .3s forwards;
+}
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+@keyframes slideUp{
+    from{
+        transform: translateY(100%)
+    }
+    to{
+        transform: translateY(0)
+    }
+}
+@keyframes slideDown{
+    from{
+        transform: translateY(0)
+    }
+    to{
+        transform: translateY(100%)
+    }
+}
+.datepicker-mask{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right:0;
+    background: rgba(0,0,0,.4);
+    z-index: 1000;
+}
+.datepicker-picker{
+    width: 100%;
+    height: 640rpx;
+    position:fixed;
+    bottom: 0;
+    left:0;
+    right:0;
+    font-size: 36rpx;
+    background: #fff;
+    z-index: 1010;
+}
+.datepicker-picker-header{
+    height:100rpx;
+    background:#f7f7f7;
+    display: flex;
+    align-items: center;
+}
+.datepicker-picker-header .datepicker-picker-header-btn{
+    width: 120rpx;
+    height: 80rpx;
+    line-height: 80rpx;
+    text-align: center;
+}
+.datepicker-picker-header .datepicker-picker-header-title{
+    flex: 1;
+    height: 80rpx;
+    line-height: 80rpx;
+    text-align: center;
+}
