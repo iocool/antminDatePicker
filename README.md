@@ -92,4 +92,4 @@ pickerValue     // 默认参数,用来初始的时候用,传入数据是 picker 
 
 ### 示例
 
-<p align="center"><img src="http://oyqiss57j.bkt.clouddn.com/demo.gif" /></p
+<p align="center"><img src="http://oyqiss57j.bkt.clouddn.com/demo.gif" /></p>
